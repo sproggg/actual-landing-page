@@ -24,6 +24,7 @@
     width: 100%;
     height: 100%;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .header {
@@ -99,24 +100,40 @@
 .content2 {
     display: flex;
     justify-content: center;
-    gap: 128px;
 }
 
     .cluster1 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        
+        margin-right: -5%;
+        
     }
     .cluster2 {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }.cluster3 {
+        
+        margin-right: -5%;
+    }
+    .cluster3 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: -5%;
+        
     }.cluster4 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: -5%;
+        
+    }
+
+    .image {
+        display: flex;
+        width: 30%;
+        height: 30%;
+        
     }
