@@ -9,6 +9,9 @@
     text-decoration: none;
 }
 
+ p {
+    width: 200px;
+ }
 
  .Hright li a {
     text-decoration: none;
@@ -85,6 +88,7 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    height: 50%;
 }
 
 .heading2 {
@@ -100,13 +104,13 @@
 .content2 {
     display: flex;
     justify-content: center;
+    /* padding: 50px; */
 }
 
     .cluster1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
         margin-right: -5%;
         
     }
@@ -114,7 +118,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        
         margin-right: -5%;
     }
     .cluster3 {
@@ -122,18 +125,45 @@
         flex-direction: column;
         align-items: center;
         margin-left: -5%;
-        
-    }.cluster4 {
+    }
+    .cluster4 {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-left: -5%;
-        
     }
 
     .image {
         display: flex;
         width: 30%;
-        height: 30%;
-        
+        height: 30%;   
+    }
+
+    .quoteHolder {
+        background-color: #dfd0d6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+        .quote {
+            display: flex;
+            width: 50%;
+            margin: 50px;
+            font-size: 28px;
+            padding: 5%;
+        }
+
+        .quote2 {
+            display: flex;
+            width: 50%;
+            justify-content: flex-end;
+            margin-top: -2%;
+            font-size: 20px;
+        }
+
+    .footer {
+        display: flex;
+        margin-top: auto;
     }
